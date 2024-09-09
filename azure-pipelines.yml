@@ -37,4 +37,4 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'webapp-artifact'
+    artifactName: 'CLT_WebApplication-artifact'
