@@ -26,7 +26,26 @@ namespace CLT_WebApplication.Controllers
         {
             return View();
         }
-        
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+        public IActionResult ContentMgt()
+        {
+            return View();
+        }
+        public IActionResult CorpTrain()
+        {
+            return View();
+        }
+        public IActionResult EduTrain()
+        {
+            return View();
+        }
+        public IActionResult Mission()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
